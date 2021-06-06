@@ -10,5 +10,3 @@ GPIO pin - `14`
     cp gpio-fan-control.service /etc/systemd/system/gpio-fan-control.service
     systemctl start gpio-fan-control.service && systemctl enable gpio-fan-control.service
 ```
-
-http://codius.ru/file/getfullimage/61f95dfb-24e5-4419-8908-ec6268a5a83b
