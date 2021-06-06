@@ -1,5 +1,6 @@
-# Pi3-gpio-fan-control
-Pi3 fan control via gpio
+# Raspberry Pi 3 GPIO fan control
+
+Pi3 fan control via gpio by systemd unit
 
 Enable fan if temperature equal to `temp_max` var (60 by default) and disable if temperature equal to `temp_min` var (42 by deafault)
 GPIO pin - `14`
