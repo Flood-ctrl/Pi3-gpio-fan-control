@@ -5,6 +5,7 @@ echo "out" > /sys/class/gpio/gpio14/direction
 
 temp_max="60"
 temp_min="42"
+
 while true; do
     current_temp=$(cat /sys/class/thermal/thermal_zone0/temp)
     current_temp_dec="${current_temp%???}"
